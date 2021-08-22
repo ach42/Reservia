@@ -26,6 +26,7 @@ h3 {
     font-family: 'Raleway', sans-serif;
     font-size: 13px;
     font-weight: 700;
+    margin: 0;
 }
 b {
     font-family: 'Raleway', sans-serif;
@@ -345,6 +346,7 @@ header {
     .mid {
         display: flex;
         column-gap: 5%;
+        margin-bottom: 2%;
     }
 /* Hébergement */
 
@@ -364,6 +366,7 @@ header {
 .heb-row-2 {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 4%;
 }
 .heb-card {
     background-color: #fff;
@@ -371,7 +374,7 @@ header {
     padding: 5px;
     margin: 10px;
     max-width: 30%;
-    box-shadow: 0px 0px 19px 5px rgb(0 0 0 / 5%);
+    box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.05);
     display: flex;
     flex-direction: column;
 }
@@ -405,6 +408,11 @@ header {
 .fa-star {
     font-size: 12px;
     margin-top: 5px;
+}
+.more {
+    padding-left: 15px;
+    color: #000;
+    font-weight: 700;
 }
 
 @media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)  
@@ -504,13 +512,19 @@ header {
 .pop-block {
     display: flex;
     width: 40%;
+    padding-bottom: 2%;
     border-radius: 20px;
     justify-content: center;
     background-color: #efefef;
 }
+.titre-head-pop {
+    margin-left: 25px;
+}
 .titre-pop {
-    padding-left: 7%;
     color: #000;
+}
+.titre-pop:hover {
+    color: #0065FC;
 }
 .head-pop {
     display: flex;
@@ -561,7 +575,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     padding-bottom: 5%;
-    padding-left: 2%;
+    padding-left: 4%;
     padding-top: 2%;
 }
 
@@ -590,6 +604,88 @@ header {
 /* Activités */
 
 .act {
+    display: grid;
+    width: 100%;
+    height: 500px;
+    margin-top: 2%;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100%;
+}
+.act-block-big-1 {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    grid-column: 1/4;
+    grid-row: 1/1;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.act-block-big-2 {
+    display: flex;
+    flex-direction: column;
+    grid-column: 3/4;
+    grid-row: 1/1;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+.act-block-1 {
+    display: flex;
+    grid-template-rows: 50% 50%;
+    margin-right: 4%;
+    grid-row: 1/1;
+    grid-column: 2/4;
+    flex-direction: column;
+}
+.act-block-2 {
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 50% 50%;
+    margin-left: 4%;
+    grid-row: 1/1;
+    grid-column: 4/4;
+}
+.act-item-1 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.act-item-2 {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+}
+.act-img-big {
+    display: flex;
+    object-fit: cover;
+    width: 32%;
+    height: 90%;
+}
+.act-img-big-2 {
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+}
+.act-img-1 {
+    object-fit: cover;
+    width: 50%;
+    height: 80%;
+}
+.act-img-2 {
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+.act-titre {
+    margin: 0;
+    padding-left: 15px;
+}
+
+
+
+
+
+footer {
+    background-color: #d9d9d9;
 }
