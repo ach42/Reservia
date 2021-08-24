@@ -308,7 +308,7 @@ header {
 .info {
     padding: 10px 20px 20px 20px;
 }
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     .filtre-section {
         flex-direction: column;
@@ -533,7 +533,7 @@ header {
         margin-bottom: 20px;
     }
 }
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     .heb-block:nth-child(1) {
         order: 2;
@@ -723,7 +723,7 @@ header {
     }
 }
 
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     .heb-block:nth-child(2) {
         order: 1;
@@ -995,7 +995,7 @@ header {
         padding: 25px;
     }
 }
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     .act {
         display: flex;
@@ -1131,7 +1131,7 @@ footer {
 .foo-link:hover {
     color: #0065fc;
 }
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     footer {
         flex-direction: column !important;
