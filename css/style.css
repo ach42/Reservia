@@ -200,7 +200,7 @@ header {
 .button-search:hover {
     box-shadow: inset 0px 0px 36px 0px rgba(0,0,0,0.25);
 }
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     .geo-search-section {
         padding: 40px;
