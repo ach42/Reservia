@@ -44,7 +44,7 @@ b {
 .Frodon {
     grid-column: 2/3;
 }
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) 
+@media only screen and (max-width : 320px)
 {
     body{
         display: block;
@@ -200,7 +200,7 @@ header {
 .button-search:hover {
     box-shadow: inset 0px 0px 36px 0px rgba(0,0,0,0.25);
 }
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) 
+@media only screen and (max-width : 320px)
 {
     .geo-search-section {
         padding: 40px;
@@ -308,7 +308,7 @@ header {
 .info {
     padding: 10px 20px 20px 20px;
 }
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2) 
+@media only screen and (max-width : 320px)
 {
     .filtre-section {
         flex-direction: column;
@@ -533,7 +533,7 @@ header {
         margin-bottom: 20px;
     }
 }
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)  
+@media only screen and (max-width : 320px)
 {
     .heb-block:nth-child(1) {
         order: 2;
@@ -723,7 +723,7 @@ header {
     }
 }
 
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)  
+@media only screen and (max-width : 320px)
 {
     .heb-block:nth-child(2) {
         order: 1;
@@ -995,7 +995,7 @@ header {
         padding: 25px;
     }
 }
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)
+@media only screen and (max-width : 320px)
 {
     .act {
         display: flex;
@@ -1131,7 +1131,7 @@ footer {
 .foo-link:hover {
     color: #0065fc;
 }
-@media only screen and (device-width : 375px) and (device-height : 667px) and (-webkit-device-pixel-ratio : 2)  
+@media only screen and (max-width : 320px)
 {
     footer {
         flex-direction: column !important;
