@@ -44,7 +44,7 @@ b {
 .Frodon {
     grid-column: 2/3;
 }
-@media only screen and (max-width : 320px)
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px)
 {
     body{
         display: block;
@@ -431,6 +431,9 @@ header {
     padding-left: 15px;
     color: #000;
     font-weight: 700;
+}
+.more:hover {
+    color: #0065FC
 }
 @media screen and (max-width: 1000px) 
 {
