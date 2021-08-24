@@ -362,7 +362,6 @@ header {
 /* Mid */
     .mid {
         display: flex;
-        column-gap: 5%;
         margin-bottom: 2%;
     }
 /* Hébergement */
@@ -372,6 +371,7 @@ header {
     background-color: #efefef;
     border-radius: 20px;
     padding: 1%;
+    margin-right: 5%;
 }
 .titre-heb {
     padding-left: 15px;
