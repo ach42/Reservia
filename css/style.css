@@ -280,10 +280,14 @@ header {
     display: flex;
     border-radius: 0px 25px 25px 0px;;
     background-color: #fff;
+    color: #000;
     font-family: 'Raleway', sans-serif;
     border: none;
     line-height: 20px;
     padding: 10px;
+}
+.button-filtre:hover {
+    color: #0065FC;
 }
 .icon-filtre {
     display: block;
