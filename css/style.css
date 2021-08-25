@@ -49,6 +49,7 @@ b {
     body{
         display: block;
         margin: 0;
+        overflow-x: hidden;
     }
     h1 {
         font-weight: 700;
@@ -62,13 +63,15 @@ b {
         font-size: 35px;
     }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1000px) 
+{
     h3 {
         font-size: 18px;
     }
     body{
         display: block;
         margin: 0px;
+        overflow-x: hidden;
     }
 }
 @media only screen and (min-width: 375px)
@@ -101,10 +104,10 @@ header {
 .menu-item:hover {
     box-shadow: inset 0px 3px 0px 0px rgba(0,101,252,1);
 } 
-#menu-item-link {
+.menu-item-link {
     color: #494949;
 }
-#menu-item-link:hover {
+.menu-item-link:hover {
     color: #0065FC;
 }
 .register {
@@ -156,7 +159,7 @@ header {
         margin-right: 50px;
         padding-top: 50px;
     }
-    #register {
+    register {
         font-size: 40px;
     }
 }
@@ -881,10 +884,6 @@ header {
 }
 .act-titre:hover {
     color: #0065FC;
-}
-
-.act-link:hover {
-
 }
 @media screen and (max-width: 1000px) {
     .act {

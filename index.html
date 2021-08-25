@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,55 +14,51 @@
         <header class="Frodon">
             <img class="logo" alt="logo Reservia" src="images/logo.svg">
             <div class="menu">
-                <div class="menu-item"><a id="menu-item-link" href="#heb-ancre">Hébergements</a></div>
-                <div class="menu-item"><a id="menu-item-link" href="#act-ancre">Activités</a></div>
-                <div class="register"><a id="register" href="#">S'inscrire</a></div>
+                <div class="menu-item"><a class="menu-item-link" href="#heb-ancre">Hébergements</a></div>
+                <div class="menu-item"><a class="menu-item-link" href="#act-ancre">Activités</a></div>
+                <div class="register"><a class="register" href="#">S'inscrire</a></div>
             </div>
         </header>
         <section class="menu-resp hidedesk Frodon">
-                <div class="menu-item-resp"><a id="menu-item-link-resp" href="#heb-ancre">Hébergements</a></div>
-                <div class="menu-item-resp"><a id="menu-item-link-resp" href="#act-ancre">Activités</a></div>
+                <div class="menu-item-resp"><a class="menu-item-link-resp" href="#heb-ancre">Hébergements</a></div>
+                <div class="menu-item-resp"><a class="menu-item-link-resp" href="#act-ancre">Activités</a></div>
         </section>
         <section class="geo-search-section Frodon">
             <div class="argument">
                 <h1>Trouvez votre hébergement pour des vacances de rêves</h1>
                 <h2 id="h2-geo">En plein centre ville ou en pleine nature</h2>
             </div>
-            <div class="geo-search"><i class="fas fa-map-marker-alt button-gps"></i><input type="text" class="input-gps" value="Marseille, France"><input type="submit" value="Rechercher" class="button-search"></div>
-            <div class="geo-search-resp hidedesk"><i class="fas fa-map-marker-alt button-gps-resp"></i><input class="input-gps-resp" type="text" value="Marseille, France"></input><button class="button-search-resp"><i class="fas fa-search"></i></button>
+            <div class="geo-search">
+                <i class="fas fa-map-marker-alt button-gps"></i><input type="text" class="input-gps" value="Marseille, France"><input type="submit" value="Rechercher" class="button-search">
+            </div>
+            <div class="geo-search-resp hidedesk">
+                <i class="fas fa-map-marker-alt button-gps-resp"></i><input class="input-gps-resp" type="text" value="Marseille, France"><button class="button-search-resp"><i class="fas fa-search"></i></button>
+            </div>
         </section>
         <section class="filtre-section Frodon">
-            <b class="filtre-titre">Filtres</b>
+            <h3 class="filtre-titre">Filtres</h3>
             <div class="filtre-block">
-                <a href="#">
                     <div class="filtre-div">
                         <i class="icon-filtre fas fa-money-bill-wave"></i>
-                        <button class="button-filtre"></i>Économique</button>
+                        <a target="_blank" class="button-filtre" href="#">Économique</a> 
                     </div>
-                </a>
-                <a href="#">
                     <div class="filtre-div">
                         <i class="icon-filtre fas fa-child"></i>
-                        <button class="button-filtre">Familial</button>
+                        <a target="_blank" class="button-filtre" href="#">Familial</a> 
                     </div>
-                </a>
-                <a href="#">
                     <div class="filtre-div">
                         <i class="icon-filtre fas fa-heart"></i>
-                        <button class="button-filtre">Romantique</button>
+                        <a target="_blank" class="button-filtre" href="#">Romantique</a> 
                     </div>
-                </a>
-                <a href="#">
                     <div class="filtre-div">
                         <i class="icon-filtre fas fa-dog"></i>
-                        <button class="button-filtre">Animaux autorisés</button>
+                        <a target="_blank" class="button-filtre" href="#">Animaux autorisés</a> 
                     </div>
-                <div>
-                </a>
+            </div>
         </section>
         <p class="info Frodon"><i class="fas fa-info-circle"></i> Plus de 500 logements sont disponible dans cette ville</p>
+        <div id="heb-ancre"></div>
         <section class="mid Frodon">
-            <div id="heb-ancre"></div>
             <div class="heb-block">
                 <h2 class="titre-heb">Hébergements à Marseille</h2>
                 <div class="heb-row-1">
@@ -141,7 +137,7 @@
                 </a>
                 <a href="#">
                 <div class="card-pop">
-                    <img class="img-pop" alt="Au cours de l'eau Chambres d'hôtes"src="images/aw-creative-VGs8z60yT2c-unsplash.jpg">
+                    <img class="img-pop" alt="Au cours de l'eau Chambres d'hôtes" src="images/aw-creative-VGs8z60yT2c-unsplash.jpg">
                     <div class="pop-flex">
                         <div class="description-pop">
                             <h3 class="titre-pop" >Au cours de l'eau Chambres d'hôtes</h3> 
@@ -172,9 +168,8 @@
         </section>
         <h2 class="actmar Frodon">Activités à Marseille</h2>
         <section class="act Frodon">
-            <div id="act-ancre"></div>
                 <div class="act-block-big-1">
-                    <img class="act-img-big" src="images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                    <img class="act-img-big" alt="Vieux Port" src="images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
                     <div class="act-description-big">
                         <a href="#">
                             <h3 class="act-titre">Vieux Port</h3>
