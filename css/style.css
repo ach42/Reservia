@@ -143,29 +143,26 @@ header {
         text-align: center;
         box-shadow: -1px 6px 0px -1px rgba(239,239,239,1);
     }
-    #menu-item-link-resp-1 {
+    .menu-item-resp:active {
+        box-shadow: -1px 6px 0px -1px rgba(0,101,252,1);
+    }
+    #menu-item-link-resp {
         font-size: 40px;
         font-weight: 500;
         padding-bottom: 10px;
         color: #494949
     }
-    #menu-item-link-resp-1:active {
-        color: #0065fc;
-    }
-    #menu-item-link-resp-2 {
-        font-size: 40px;
-        font-weight: 500;
-        padding-bottom: 10px;
-        color: #494949
-    }
-    #menu-item-link-resp-2:active {
+    #menu-item-link-resp:active {
         color: #0065fc;
     }
     .register {
-        margin-right: 0px;
-        padding-top: 65px;
-        font-size: 40px
+        margin-right: 50px;
+        padding-top: 50px;
     }
+    register {
+        font-size: 40px;
+    }
+}
 
 /* Geo Search */
 #h2-geo {
